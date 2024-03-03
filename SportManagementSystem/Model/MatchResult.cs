@@ -2,10 +2,10 @@
 {
     public class MatchResult
     {
-        public int ID { get; set; }
-        public int MatchID { get; set; }
-        public int WinningTeamID { get; set; }
-        public int LosingTeamID { get; set; }
+        public string Id { get; set; }
+        public int MatchId { get; set; }
+        public int WinningTeamId { get; set; }
+        public int LosingTeamId { get; set; }
         public bool Draw { get; set; }
     }
 }
