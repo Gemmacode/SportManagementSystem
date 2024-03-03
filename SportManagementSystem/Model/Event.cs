@@ -2,8 +2,9 @@
 
 namespace SportManagementSystem.Model
 {
-    public class Event : BaseEntity
+    public class Event 
     {
+        public string Id { get; set; }
         public string EventName { get; set; }
         public string Location { get; set; }
         public DateTime StartDate { get; set; }
