@@ -1,7 +1,6 @@
 ﻿namespace SportManagementSystem.Model
 {
-    public class Player
+    public class MatchResult
     {
-
     }
 }
